@@ -32,9 +32,6 @@ jobs:
             - name: "Run tests"
               run: npm test
 
-            - name: "Run build"
-              run: npm build
-
             - name: "upload product-ready build files"
               uses: actions/upload-artifact@v4
               with:
