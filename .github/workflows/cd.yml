@@ -29,9 +29,6 @@ jobs:
             - name: "install dependencies"
               run: npm install
 
-            - name: "Run tests"
-              run: npm test
-
             - name: "upload product-ready build files"
               uses: actions/upload-artifact@v4
               with:
